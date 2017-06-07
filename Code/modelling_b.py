@@ -3,7 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report,confusion_matrix
 
-df = pd.read_csv("../Data/bank-additional-full_normalized.csv")
+# df = pd.read_csv("../Data/bank-additional-full_normalized.csv")
+df = pd.read_csv("../Data/bank-additional-full_normalized_vif.csv")
+
 
 X = df.drop('y',axis=1)
 y = df['y']

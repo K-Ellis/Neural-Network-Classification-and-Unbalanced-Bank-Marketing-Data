@@ -2,12 +2,6 @@ import pandas as pd
 
 df = pd.read_csv("../Data/bank-additional_normalized.csv")
 
-print(len(df))
+final_df = pd.concat([df["age"], df['y']], axis = 1)
 
-df = pd.read_csv("../Data/bank-additional.csv")
-
-print(len(df))
-
-df = pd.read_csv("../Data/bank-full.csv")
-
-print(len(df))
+print(final_df.head())
