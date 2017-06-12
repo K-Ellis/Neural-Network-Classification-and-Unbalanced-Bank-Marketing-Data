@@ -1,7 +1,12 @@
 import pandas as pd
 
-df = pd.read_csv("../Data/bank-additional_normalized.csv")
+df = pd.read_csv("../Data/bank-additional.csv", sep =";")
+i = 0
 
-final_df = pd.concat([df["age"], df['y']], axis = 1)
+cat_vars = []
 
-print(final_df.head())
+for col in df:
+    if df[col].dtype == object:
+        cat_vars.append(col)
+
+print(cat_vars)
