@@ -1,0 +1,15 @@
+{'solver': 'lbfgs', 'hidden_layer_sizes': (10, 8, 5), 'alpha': 0.0001, 'max_iter': 500}
+train score =0.921854261759
+test score =0.91220743906
+[[8790  342]
+ [ 562  603]]
+Accuracy = 0.91220743906
+Sensitivity = 0.517596566524
+Specificity = 0.962549277267
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(10, 8, 5), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)

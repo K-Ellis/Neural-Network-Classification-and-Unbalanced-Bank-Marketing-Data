@@ -1,0 +1,8 @@
+train score =0.177021095469
+test score =0.914926677673
+[[8816  316]
+ [ 560  605]]
+Accuracy = 0.914926677673
+Sensitivity = 0.519313304721
+Specificity = 0.965396408235
+<keras.models.Sequential object at 0x0000026AE680C780>

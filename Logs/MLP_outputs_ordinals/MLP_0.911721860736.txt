@@ -1,0 +1,15 @@
+{'alpha': 0.1, 'solver': 'adam', 'hidden_layer_sizes': (10, 8, 5), 'max_iter': 500}
+train score =0.914602958791
+test score =0.911721860736
+[[8773  359]
+ [ 550  615]]
+Accuracy = 0.911721860736
+Sensitivity = 0.527896995708
+Specificity = 0.960687691634
+MLPClassifier(activation='relu', alpha=0.1, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(10, 8, 5), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=500, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)

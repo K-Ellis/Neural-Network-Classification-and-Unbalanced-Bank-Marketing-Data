@@ -1,0 +1,7 @@
+train score =0.222672243284
+test score =0.906477614839
+[[8930  202]
+ [ 761  404]]
+Accuracy = 0.906477614839
+Sensitivity = 0.34678111588
+Specificity = 0.977879982479
