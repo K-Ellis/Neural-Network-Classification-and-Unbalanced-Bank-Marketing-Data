@@ -1,0 +1,8 @@
+train score =0.903769022053
+test score =0.901972927541
+[[9638  360]
+ [ 748  557]]
+Accuracy = 0.901972927541
+Sensitivity = 0.426819923372
+Specificity = 0.96399279856
+[{'config': {'dtype': 'float32', 'units': 12, 'activation': 'relu', 'use_bias': True, 'bias_constraint': None, 'bias_initializer': {'config': {}, 'class_name': 'Zeros'}, 'kernel_initializer': {'config': {'scale': 1.0, 'distribution': 'uniform', 'seed': None, 'mode': 'fan_avg'}, 'class_name': 'VarianceScaling'}, 'batch_input_shape': (None, 42), 'bias_regularizer': None, 'kernel_regularizer': None, 'kernel_constraint': None, 'activity_regularizer': None, 'trainable': True, 'name': 'dense_46'}, 'class_name': 'Dense'}, {'config': {'units': 8, 'activation': 'relu', 'use_bias': True, 'bias_constraint': None, 'bias_initializer': {'config': {}, 'class_name': 'Zeros'}, 'kernel_initializer': {'config': {'scale': 1.0, 'distribution': 'uniform', 'seed': None, 'mode': 'fan_avg'}, 'class_name': 'VarianceScaling'}, 'bias_regularizer': None, 'kernel_regularizer': None, 'kernel_constraint': None, 'activity_regularizer': None, 'trainable': True, 'name': 'dense_47'}, 'class_name': 'Dense'}, {'config': {'units': 1, 'activation': 'sigmoid', 'use_bias': True, 'bias_constraint': None, 'bias_initializer': {'config': {}, 'class_name': 'Zeros'}, 'kernel_initializer': {'config': {'scale': 1.0, 'distribution': 'uniform', 'seed': None, 'mode': 'fan_avg'}, 'class_name': 'VarianceScaling'}, 'bias_regularizer': None, 'kernel_regularizer': None, 'kernel_constraint': None, 'activity_regularizer': None, 'trainable': True, 'name': 'dense_48'}, 'class_name': 'Dense'}]

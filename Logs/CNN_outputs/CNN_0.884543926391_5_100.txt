@@ -1,0 +1,8 @@
+train score =0.88250560339
+test score =0.884543926391
+[[9998    0]
+ [1305    0]]
+Accuracy = 0.884543926391
+Sensitivity = 0.0
+Specificity = 1.0
+[{'config': {'use_bias': True, 'kernel_size': (20,), 'kernel_initializer': {'config': {'scale': 1.0, 'seed': None, 'mode': 'fan_avg', 'distribution': 'uniform'}, 'class_name': 'VarianceScaling'}, 'activation': 'linear', 'batch_input_shape': (None, 42, 1), 'kernel_constraint': None, 'trainable': True, 'kernel_regularizer': None, 'dilation_rate': (1,), 'strides': (1,), 'padding': 'same', 'filters': 10, 'activity_regularizer': None, 'name': 'conv1d_34', 'bias_constraint': None, 'dtype': 'float32', 'bias_initializer': {'config': {}, 'class_name': 'Zeros'}, 'bias_regularizer': None}, 'class_name': 'Conv1D'}, {'config': {'pool_size': (10,), 'trainable': True, 'strides': (10,), 'padding': 'valid', 'name': 'max_pooling1d_31'}, 'class_name': 'MaxPooling1D'}, {'config': {'name': 'flatten_24', 'trainable': True}, 'class_name': 'Flatten'}, {'config': {'use_bias': True, 'kernel_initializer': {'config': {'scale': 1.0, 'seed': None, 'mode': 'fan_avg', 'distribution': 'uniform'}, 'class_name': 'VarianceScaling'}, 'activation': 'relu', 'kernel_regularizer': None, 'kernel_constraint': None, 'trainable': True, 'units': 1, 'bias_regularizer': None, 'activity_regularizer': None, 'bias_constraint': None, 'bias_initializer': {'config': {}, 'class_name': 'Zeros'}, 'name': 'dense_40'}, 'class_name': 'Dense'}]
